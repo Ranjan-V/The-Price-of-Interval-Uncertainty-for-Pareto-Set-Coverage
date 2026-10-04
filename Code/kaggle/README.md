@@ -1,6 +1,6 @@
 # Kaggle execution package
 
-The scripts are authoritative; no notebook is required. Copy the entire `Code/` directory to a Kaggle working directory, preserving `src/`, `experiments/`, `validation/`, `kaggle/`, and `requirements.txt`. Use a Python environment with NumPy and Matplotlib; PyTorch is optional for batched CUDA midpoint runs. Do not use TPU. No dataset is bundled. Stage E requires a user-supplied chronological `.npz` with arrays described in `experiments/streaming_classification.py`.
+The scripts are authoritative; no notebook is required. Copy the entire `Code/` directory to a Kaggle working directory, preserving `src/`, `experiments/`, `validation/`, `kaggle/`, and `requirements.txt`. Use a Python environment with NumPy and Matplotlib; PyTorch is optional for batched CUDA midpoint runs. Do not use TPU. The Bank Marketing source and derived stream are bundled under `data/bank_marketing/`. Stage E of the earlier synthetic workflow requires a separate chronological `.npz` with arrays described in `experiments/streaming_classification.py`.
 
 From the copied `Code/` directory, run each stage deliberately:
 
