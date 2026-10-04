@@ -1,0 +1,61 @@
+{
+  "target": "next observed batch empirical objectives at the current action",
+  "forecast": "previous observed batch objectives evaluated at the current action",
+  "radius_rule": "expanding past absolute forecast-error 90th percentile order statistic",
+  "nominal_marginal_coverage": 0.9,
+  "warmup_batches": 20,
+  "evaluated_batches": 108,
+  "guaranteed_population_or_sequential_coverage": false,
+  "methods": {
+    "jcam_80_15_05": {
+      "logloss": 0.3589735407532136,
+      "score_gap": 0.00626334657398845,
+      "resource": 2.420336944901754,
+      "accuracy": 0.86199951171875,
+      "brier": 0.10567155230300145
+    },
+    "logistic_only": {
+      "logloss": 0.3532624988888641,
+      "score_gap": 0.00734020632420352,
+      "resource": 3.2590674493711562,
+      "accuracy": 0.86199951171875,
+      "brier": 0.10412171206831228
+    },
+    "gap_heavy_65_30_05": {
+      "logloss": 0.36578014996164815,
+      "score_gap": 0.005807101651731429,
+      "resource": 2.4012138936938903,
+      "accuracy": 0.86199951171875,
+      "brier": 0.10781960379670485
+    },
+    "resource_heavy_70_10_20": {
+      "logloss": 0.3650177965315684,
+      "score_gap": 0.004947703288466854,
+      "resource": 1.2144145159498594,
+      "accuracy": 0.86199951171875,
+      "brier": 0.10689212136615608
+    }
+  },
+  "max_replay_action_error": 0.0,
+  "calibration": {
+    "objective_0": {
+      "empirical_coverage": 0.8425925925925926,
+      "fixed_band_coverage": 0.6481481481481481,
+      "mean_radius": 0.11974168173770243,
+      "mean_absolute_forecast_error": 0.07190502343267276
+    },
+    "objective_1": {
+      "empirical_coverage": 0.8333333333333334,
+      "fixed_band_coverage": 0.9537037037037037,
+      "mean_radius": 0.006835040599597403,
+      "mean_absolute_forecast_error": 0.009076392911102536
+    },
+    "objective_2": {
+      "empirical_coverage": 1.0,
+      "fixed_band_coverage": 1.0,
+      "mean_radius": 0.0,
+      "mean_absolute_forecast_error": 0.0
+    }
+  },
+  "joint_empirical_coverage": 0.7129629629629629
+}

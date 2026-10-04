@@ -1,0 +1,112 @@
+{
+  "protocol": "IID-with-replacement feedback from each fixed chronological 256-row pool",
+  "population_target": "exact objective of the original 256-row pool at each current action",
+  "APP01_assumption_satisfied_by_design": true,
+  "observational_UCI_coverage_claim": false,
+  "confidence_per_seed_for_all_rounds_and_actions": 0.95,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "horizon": 128,
+  "sample_size": 256,
+  "risk_grid_spacing": 0.03851107002325571,
+  "risk_radius": 3.111545377185955,
+  "mean_gap_radius": 6.2335412507762875,
+  "max_risk_error_at_played_actions": 0.17529036061586423,
+  "max_gap_error_at_played_actions": 0.2001497553014642,
+  "fraction_of_seeds_all_played_actions_covered": 1.0,
+  "mean_fixed_005_risk_coverage": 0.88046875,
+  "mean_fixed_005_gap_coverage": 0.99453125,
+  "coverage_for_every_action_empirically_checked": false,
+  "per_seed": [
+    {
+      "seed": 0,
+      "all_played_actions_covered": true,
+      "risk_coverage": 1.0,
+      "gap_coverage": 1.0,
+      "fixed_risk_coverage": 0.8671875,
+      "fixed_gap_coverage": 0.9921875
+    },
+    {
+      "seed": 1,
+      "all_played_actions_covered": true,
+      "risk_coverage": 1.0,
+      "gap_coverage": 1.0,
+      "fixed_risk_coverage": 0.90625,
+      "fixed_gap_coverage": 0.9921875
+    },
+    {
+      "seed": 2,
+      "all_played_actions_covered": true,
+      "risk_coverage": 1.0,
+      "gap_coverage": 1.0,
+      "fixed_risk_coverage": 0.8671875,
+      "fixed_gap_coverage": 0.984375
+    },
+    {
+      "seed": 3,
+      "all_played_actions_covered": true,
+      "risk_coverage": 1.0,
+      "gap_coverage": 1.0,
+      "fixed_risk_coverage": 0.859375,
+      "fixed_gap_coverage": 0.9921875
+    },
+    {
+      "seed": 4,
+      "all_played_actions_covered": true,
+      "risk_coverage": 1.0,
+      "gap_coverage": 1.0,
+      "fixed_risk_coverage": 0.9375,
+      "fixed_gap_coverage": 0.9921875
+    },
+    {
+      "seed": 5,
+      "all_played_actions_covered": true,
+      "risk_coverage": 1.0,
+      "gap_coverage": 1.0,
+      "fixed_risk_coverage": 0.84375,
+      "fixed_gap_coverage": 1.0
+    },
+    {
+      "seed": 6,
+      "all_played_actions_covered": true,
+      "risk_coverage": 1.0,
+      "gap_coverage": 1.0,
+      "fixed_risk_coverage": 0.90625,
+      "fixed_gap_coverage": 1.0
+    },
+    {
+      "seed": 7,
+      "all_played_actions_covered": true,
+      "risk_coverage": 1.0,
+      "gap_coverage": 1.0,
+      "fixed_risk_coverage": 0.875,
+      "fixed_gap_coverage": 1.0
+    },
+    {
+      "seed": 8,
+      "all_played_actions_covered": true,
+      "risk_coverage": 1.0,
+      "gap_coverage": 1.0,
+      "fixed_risk_coverage": 0.8671875,
+      "fixed_gap_coverage": 1.0
+    },
+    {
+      "seed": 9,
+      "all_played_actions_covered": true,
+      "risk_coverage": 1.0,
+      "gap_coverage": 1.0,
+      "fixed_risk_coverage": 0.875,
+      "fixed_gap_coverage": 0.9921875
+    }
+  ]
+}

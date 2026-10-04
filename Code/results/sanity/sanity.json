@@ -1,0 +1,54 @@
+{
+  "SANITY-01": {
+    "pass": true,
+    "U_T": 0.0,
+    "Q_T": 0.0
+  },
+  "SANITY-02": {
+    "pass": true,
+    "P_T": 0.0
+  },
+  "SANITY-03": {
+    "pass": true,
+    "regret_equals_midpoint": true
+  },
+  "SANITY-04": {
+    "pass": true,
+    "values": [
+      {
+        "width": 0.0,
+        "U_T": 0.0,
+        "Q_T": 0.0
+      },
+      {
+        "width": 0.01,
+        "U_T": 0.08,
+        "Q_T": 0.07999999999999997
+      },
+      {
+        "width": 0.02,
+        "U_T": 0.16,
+        "Q_T": 0.16000000000000003
+      },
+      {
+        "width": 0.05,
+        "U_T": 0.39999999999999997,
+        "Q_T": 0.39999999999999997
+      },
+      {
+        "width": 0.1,
+        "U_T": 0.7999999999999999,
+        "Q_T": 0.7999999999999999
+      }
+    ]
+  },
+  "SANITY-05": {
+    "pass": true,
+    "P_T": 0.5,
+    "expected": 0.5
+  },
+  "SANITY-06": {
+    "pass": true,
+    "finite_efficient_count": 1
+  }
+}

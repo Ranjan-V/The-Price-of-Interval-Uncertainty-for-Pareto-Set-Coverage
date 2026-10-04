@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "interpretation": "exploratory, prequential empirical metrics",
+  "n": 32768,
+  "batches": 128,
+  "model_logloss": 0.35897354075321364,
+  "causal_prevalence_baseline_logloss": 0.4020540481090661,
+  "model_accuracy": 0.86199951171875,
+  "baseline_accuracy": 0.869140625,
+  "model_brier": 0.10567155230300143,
+  "mean_batch_score_group_gap": 0.006263346573988459,
+  "max_logged_logloss_difference": 0.0,
+  "population_interval_coverage_verified": false
+}

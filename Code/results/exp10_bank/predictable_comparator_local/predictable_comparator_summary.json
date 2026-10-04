@@ -1,0 +1,15 @@
+{
+  "status": "conditional_predictable_comparator_certificate",
+  "sampling_assumption": "current batch IID conditional on past; unverified for observational UCI chronology",
+  "comparator": "predeclared neutral action w=(0.5,...,0.5)",
+  "comparator_selected_using_current_or_future_data": false,
+  "confidence_for_all_rounds_at_played_and_comparator_actions": 0.95,
+  "horizon": 128,
+  "mean_risk_radius_at_played_action": 0.37245758834901493,
+  "mean_gap_radius_at_played_action": 1.0388493056432542,
+  "THM02_Q_T_bound": 58.08556371528961,
+  "realized_gradient_optimization_bound": 0.6221021313180416,
+  "conditional_latent_regret_upper_bound": 58.707665846607654,
+  "observed_cumulative_action_minus_comparator": -37.80896801461752,
+  "observational_population_coverage_claim": false
+}

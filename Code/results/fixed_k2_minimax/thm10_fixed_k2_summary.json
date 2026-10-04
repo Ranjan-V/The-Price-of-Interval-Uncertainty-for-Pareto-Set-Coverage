@@ -1,0 +1,35 @@
+{
+  "local_grid_checks": 10201,
+  "minimum_local_slack": 0.0,
+  "global_grid_checks": 9452,
+  "minimum_global_slack": 0.0018460937499999996,
+  "upper_cases": [
+    {
+      "s_over_r": 0.001,
+      "upper_excess": 1.4653075683896538e-05,
+      "upper_over_width": 0.04688984218846892
+    },
+    {
+      "s_over_r": 0.01,
+      "upper_excess": 0.00014694775693980568,
+      "upper_over_width": 0.047023282220737816
+    },
+    {
+      "s_over_r": 0.05,
+      "upper_excess": 0.0007439593712819763,
+      "upper_over_width": 0.04761339976204648
+    },
+    {
+      "s_over_r": 0.1,
+      "upper_excess": 0.0015107709750566897,
+      "upper_over_width": 0.04834467120181407
+    },
+    {
+      "s_over_r": 0.125,
+      "upper_excess": 0.0019026495593641862,
+      "upper_over_width": 0.048707828719723165
+    }
+  ],
+  "all_checks_passed": true,
+  "note": "Finite grids check the inequalities but do not prove the continuum theorem."
+}

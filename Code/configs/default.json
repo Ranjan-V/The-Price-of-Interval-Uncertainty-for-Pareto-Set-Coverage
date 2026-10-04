@@ -1,0 +1,13 @@
+{
+  "synthetic": {
+    "horizon": 100,
+    "dimension": 2,
+    "objectives": 2,
+    "drift": 0.1,
+    "radius": 0.1,
+    "width_slope_fraction": 0.25,
+    "seed": 7
+  },
+  "eta": 0.05,
+  "output_root": "Code/results"
+}

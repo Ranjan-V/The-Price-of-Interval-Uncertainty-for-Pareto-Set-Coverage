@@ -1,0 +1,64 @@
+{
+  "run_id": "986b646d87d5e3cb",
+  "status": "success",
+  "experiment_id": "EXP-06",
+  "config": {
+    "experiment_id": "EXP-06",
+    "synthetic": {
+      "horizon": 8,
+      "dimension": 2,
+      "objectives": 3,
+      "drift": 0.1,
+      "radius": 0.05,
+      "width_slope_fraction": 0.5,
+      "seed": 18
+    },
+    "algorithm": "midpoint",
+    "preference_id": "vertex0",
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "eta": 0.08,
+    "implementation_version": "2026-10-01-v2",
+    "front_denominator": null
+  },
+  "metrics": {
+    "horizon": 8,
+    "dimension": 2,
+    "objectives": 3,
+    "drift": 0.1,
+    "radius": 0.05,
+    "width_slope_fraction": 0.5,
+    "seed": 18,
+    "algorithm": "midpoint",
+    "preference_mode": "fixed",
+    "fixed_weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "eta": 0.08,
+    "regret": 0.11689666251239533,
+    "midpoint_regret": 0.12321694659601286,
+    "path_variation": 0.4726495081017704,
+    "two_location_width": 0.7929761943824598,
+    "uniform_width": 1.2000000000000002,
+    "online_term": 12.500000000000002,
+    "drift_term": 8.355341807581198,
+    "gradient_term": 2.5600000000000005,
+    "theorem_bound": 24.20831800196366,
+    "finite_grid_coverage": null,
+    "bound_respected": true
+  },
+  "device": "cpu",
+  "timestamp_utc": "2026-10-01T03:21:08.159057+00:00",
+  "runtime_seconds": 0.003417800002353033,
+  "packages": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "torch": null
+  },
+  "git_commit": null
+}

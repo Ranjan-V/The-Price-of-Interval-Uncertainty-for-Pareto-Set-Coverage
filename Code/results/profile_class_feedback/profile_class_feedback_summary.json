@@ -1,0 +1,26 @@
+{
+  "world_grid_size": 65,
+  "horizon": 128,
+  "profiles": [
+    0.0,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "widths_per_profile": 4,
+  "feedback_levels_per_width": 4,
+  "quadratic_identity_checks": 315,
+  "maximum_quadratic_identity_error": 2.7755575615628914e-17,
+  "rows": 64,
+  "endpoint_prior_grid_checks": 1936,
+  "endpoint_prior_excess_over_width_range": [
+    0.019737749605255244,
+    0.04967330932617031
+  ],
+  "zero_noise_feedback_to_blind_range": [
+    0.0078125,
+    0.007812500000009086
+  ],
+  "all_checks_passed": true,
+  "qualification": "One-sided interval diagnostics; THM-11 global gap is proved by compactness, not this grid."
+}

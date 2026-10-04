@@ -1,0 +1,14 @@
+{
+  "base": {"horizon": 8, "dimension": 2, "objectives": 2, "drift": 0.1, "radius": 0.05, "width_slope_fraction": 0.5},
+  "eta": 0.08,
+  "seeds": [17, 18],
+  "widths": [0.0, 0.1],
+  "drifts": [0.0, 0.1],
+  "horizons": [8, 16],
+  "joint_widths": [0.0, 0.1],
+  "joint_drifts": [0.0, 0.1],
+  "objective_counts": [2, 3],
+  "dimensions": [2, 3],
+  "front_denominator": 3,
+  "output_root": "results/kaggle_local_smoke"
+}

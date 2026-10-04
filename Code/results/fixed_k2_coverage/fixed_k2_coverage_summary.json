@@ -1,0 +1,10 @@
+{
+  "cases": 5,
+  "all_checks_passed": true,
+  "max_identity_error": 8.673617379884035e-18,
+  "upper_excess_over_width_range": [
+    0.0469936504976079,
+    0.048635323958704284
+  ],
+  "note": "Only an achieved upper bound; a K=2 minimax lower bound is open."
+}

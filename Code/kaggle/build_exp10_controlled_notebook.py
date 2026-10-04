@@ -1,0 +1,70 @@
+"""Build the sharpened population-band EXP-10 Kaggle follow-up."""
+
+import base64
+import json
+from pathlib import Path
+import textwrap
+
+from build_exp10_population_notebook import CELLS as BASE_CELLS
+
+
+ROOT = Path(__file__).resolve().parents[2]
+OUTPUT = ROOT / "JCAM_EXP10_Sharper_Bands.ipynb"
+raw = (ROOT / "Code" / "experiments" / "controlled_bank_resampling.py").read_bytes()
+encoded = base64.b64encode(raw).decode("ascii")
+SOURCE_LINES = "\n".join(f"    {encoded[i:i + 96]!r}," for i in range(0, len(encoded), 96))
+
+CELLS = BASE_CELLS[:4] + [
+    ("5. Check sharper bands under designed IID feedback", f'''
+CONTROLLED_SOURCE = base64.b64decode("".join([
+{SOURCE_LINES}
+]))
+(CODE / "experiments" / "controlled_bank_resampling.py").write_bytes(CONTROLLED_SOURCE)
+if RUN_OK:
+    command = [sys.executable, str(CODE / "experiments" / "controlled_bank_resampling.py"),
+               "--data", str(DATA), "--output", str(RESULTS / "controlled_resampling")]
+    outcome = subprocess.run(command, cwd=CODE, text=True,
+                             stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    print(outcome.stdout[-9000:])
+    if outcome.returncode == 0:
+        CONTROLLED = json.loads((RESULTS / "controlled_resampling" /
+                                 "controlled_resampling_summary.json").read_text(encoding="utf-8"))
+        record("controlled_resampling", "passed", "10 seeds, 128 rounds each")
+    else:
+        RUN_OK = False
+        record("controlled_resampling", "failed", f"exit={{outcome.returncode}}")
+else:
+    record("controlled_resampling", "skipped", "earlier gate failed")
+'''),
+    ("6. Zip the proof and sharper-band outputs", r'''
+import zipfile
+(RESULTS / "notebook_stages.json").write_text(
+    json.dumps({"run_ok": RUN_OK, "stages": STAGES}, indent=2), encoding="utf-8")
+if BOOTSTRAP_ERROR is None:
+    shutil.copy2(SOURCE_META, RESULTS / "bank_stream.metadata.json")
+FINAL_ZIP = WORK_ROOT / "result_jcam_exp10_sharper_bands.zip"
+with zipfile.ZipFile(FINAL_ZIP, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
+    for path in sorted(RESULTS.rglob("*")):
+        if path.is_file():
+            archive.write(path, arcname=(Path("exp10_sharper_bands") / path.relative_to(RESULTS)).as_posix())
+print("Output archive:", FINAL_ZIP, "bytes:", FINAL_ZIP.stat().st_size, "run_ok:", RUN_OK)
+'''),
+]
+
+
+def build() -> Path:
+    cells = []
+    for heading, code in CELLS:
+        cells.append({"cell_type": "markdown", "metadata": {}, "source": [f"## {heading}\n"]})
+        cells.append({"cell_type": "code", "execution_count": None, "metadata": {},
+                      "outputs": [], "source": textwrap.dedent(code).lstrip("\n").splitlines(keepends=True)})
+    notebook = {"cells": cells,
+                "metadata": {"kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
+                             "language_info": {"name": "python"}},
+                "nbformat": 4, "nbformat_minor": 5}
+    OUTPUT.write_text(json.dumps(notebook, indent=1), encoding="utf-8")
+    return OUTPUT
+
+
+if __name__ == "__main__":
+    print(build())

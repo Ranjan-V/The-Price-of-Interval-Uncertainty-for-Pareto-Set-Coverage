@@ -1,0 +1,45 @@
+{
+  "scalar": {
+    "horizon": 64,
+    "dimension": 2,
+    "objectives": 2,
+    "drift": 0.1,
+    "radius": 0.05,
+    "width_slope_fraction": 0.25,
+    "seed": 17,
+    "algorithm": "midpoint",
+    "preference_mode": "fixed",
+    "fixed_weights": [
+      0.5,
+      0.5
+    ],
+    "eta": 0.08,
+    "regret": 0.2964521158777339,
+    "midpoint_regret": 0.2119376938133353,
+    "path_variation": 0.4704135668073566,
+    "two_location_width": 6.399999999999993,
+    "uniform_width": 8.0,
+    "online_term": 12.500000000000002,
+    "drift_term": 8.315815576290822,
+    "gradient_term": 20.480000000000004,
+    "theorem_bound": 47.69581557629082,
+    "finite_grid_coverage": null,
+    "bound_respected": true
+  },
+  "front": {
+    "horizon": 24,
+    "dimension": 1,
+    "objectives": 2,
+    "drift": 0.1,
+    "radius": 0.05,
+    "width_slope_fraction": 0.25,
+    "seed": 17,
+    "denominator": 4,
+    "grid_size": 5,
+    "eta": 0.08,
+    "finite_grid_coverage": 0.3581536410108366,
+    "thm05_bound": 228.37932387803244,
+    "finite_grid_below_bound": true,
+    "note": "Finite front sampling underestimates the continuous supremum; theorem bound is continuous."
+  }
+}

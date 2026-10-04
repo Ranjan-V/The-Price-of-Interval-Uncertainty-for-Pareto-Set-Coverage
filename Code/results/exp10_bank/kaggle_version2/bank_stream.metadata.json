@@ -1,0 +1,57 @@
+{
+  "source_url": "https://archive.ics.uci.edu/static/public/222/bank%2Bmarketing.zip",
+  "source_sha256": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4",
+  "source_file": "bank-additional-full.csv",
+  "license": "CC BY 4.0; Moro, Rita, and Cortez (2014), UCI Bank Marketing",
+  "chronology": "Published row order is date order; exact per-row timestamps unavailable",
+  "total_rows": 41188,
+  "calibration_rows": 8237,
+  "calibration_label_counts": [
+    7978,
+    259
+  ],
+  "evaluation_rows": 32768,
+  "discarded_tail_rows": 183,
+  "batch_size": 256,
+  "horizon": 128,
+  "dimension": 24,
+  "numeric_columns": [
+    "campaign",
+    "previous",
+    "emp.var.rate",
+    "cons.price.idx",
+    "cons.conf.idx",
+    "euribor3m",
+    "nr.employed"
+  ],
+  "excluded_columns": [
+    "duration",
+    "age"
+  ],
+  "age_group": "0 if age < 40, else 1",
+  "group_counts_min": [
+    45,
+    44
+  ],
+  "group_counts_max": [
+    212,
+    211
+  ],
+  "label_counts_total": [
+    28480,
+    4288
+  ],
+  "feature_transform": "past-only min-max, clipped to [-1,1], signed pairs and five bias pairs",
+  "weights": [
+    0.8,
+    0.15,
+    0.05
+  ],
+  "radii": [
+    0.05,
+    0.05,
+    0.0
+  ],
+  "radius_interpretation": "fixed sensitivity bands only; population coverage unverified",
+  "npz_sha256": "1ea2fd8ef5a0f0194c61dcf501548e08d4ea4bb30e052c58ec2511f6c7b1244e"
+}

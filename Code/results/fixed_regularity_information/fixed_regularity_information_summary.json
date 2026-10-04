@@ -1,0 +1,8 @@
+{
+  "cases": 6,
+  "all_checks_passed": true,
+  "min_excess_to_width_ratio": 0.10200000000000001,
+  "max_excess_to_width_ratio": 0.15,
+  "max_coverage_identity_error": 0.0,
+  "note": "Grid checks probe exact algebra but do not prove minimaxity; see proof_thm09.md."
+}

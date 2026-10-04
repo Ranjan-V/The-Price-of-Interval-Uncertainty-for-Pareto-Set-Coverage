@@ -1,0 +1,82 @@
+{
+  "cases": 6,
+  "all_sampled_below_sharpened": true,
+  "all_static_sampled_below_metric_bound": true,
+  "minimum_improvement_factor": 1.7374747333920326,
+  "maximum_improvement_factor": 3.9336561723913595,
+  "note": "Sampled coverage underestimates the continuous supremum; proof establishes the bound.",
+  "rows": [
+    {
+      "seed": 3,
+      "K": 4,
+      "sampled_coverage": 0.33469737146833783,
+      "previous_bound": 230.03610134616386,
+      "sharpened_bound": 126.6325089556172,
+      "improvement_factor": 1.8165643502079556,
+      "sampled_below_sharpened": true,
+      "static_grid_sampled_coverage": 0.3426595938169805,
+      "static_metric_net_bound": 8.4,
+      "static_sampled_below_metric_bound": true
+    },
+    {
+      "seed": 3,
+      "K": 8,
+      "sampled_coverage": 0.31707467653915944,
+      "previous_bound": 422.241594877115,
+      "sharpened_bound": 155.72447912197075,
+      "improvement_factor": 2.7114657711996295,
+      "sampled_below_sharpened": true,
+      "static_grid_sampled_coverage": 0.1835363445086452,
+      "static_metric_net_bound": 4.2,
+      "static_sampled_below_metric_bound": true
+    },
+    {
+      "seed": 3,
+      "K": 16,
+      "sampled_coverage": 0.31193904651886195,
+      "previous_bound": 828.1632581262876,
+      "sharpened_bound": 210.5327008341017,
+      "improvement_factor": 3.9336561723913595,
+      "sampled_below_sharpened": true,
+      "static_grid_sampled_coverage": 0.11033617807713902,
+      "static_metric_net_bound": 2.1,
+      "static_sampled_below_metric_bound": true
+    },
+    {
+      "seed": 17,
+      "K": 4,
+      "sampled_coverage": 0.6703551202689435,
+      "previous_bound": 243.93818574269528,
+      "sharpened_bound": 140.39811978529337,
+      "improvement_factor": 1.7374747333920326,
+      "sampled_below_sharpened": true,
+      "static_grid_sampled_coverage": 1.5118722942773681,
+      "static_metric_net_bound": 8.4,
+      "static_sampled_below_metric_bound": true
+    },
+    {
+      "seed": 17,
+      "K": 8,
+      "sampled_coverage": 0.37651287696512326,
+      "previous_bound": 428.79066309628564,
+      "sharpened_bound": 161.81432269540437,
+      "improvement_factor": 2.6498931364897254,
+      "sampled_below_sharpened": true,
+      "static_grid_sampled_coverage": 0.7752020889964153,
+      "static_metric_net_bound": 4.2,
+      "static_sampled_below_metric_bound": true
+    },
+    {
+      "seed": 17,
+      "K": 16,
+      "sampled_coverage": 0.3427296261473789,
+      "previous_bound": 832.4511832760684,
+      "sharpened_bound": 213.64611559792814,
+      "improvement_factor": 3.896402145886434,
+      "sampled_below_sharpened": true,
+      "static_grid_sampled_coverage": 0.35811262593044807,
+      "static_metric_net_bound": 2.1,
+      "static_sampled_below_metric_bound": true
+    }
+  ]
+}

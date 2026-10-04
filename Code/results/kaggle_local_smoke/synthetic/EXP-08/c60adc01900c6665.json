@@ -1,0 +1,138 @@
+{
+  "run_id": "c60adc01900c6665",
+  "status": "success",
+  "experiment_id": "EXP-08",
+  "config": {
+    "experiment_id": "EXP-08",
+    "synthetic": {
+      "horizon": 8,
+      "dimension": 1,
+      "objectives": 2,
+      "drift": 0.1,
+      "radius": 0.05,
+      "width_slope_fraction": 0.5,
+      "seed": 17
+    },
+    "algorithm": "parallel",
+    "preference_id": "front_grid",
+    "weights": null,
+    "eta": 0.08,
+    "implementation_version": "2026-10-01-v2",
+    "front_denominator": 3
+  },
+  "metrics": {
+    "horizon": 8,
+    "dimension": 1,
+    "objectives": 2,
+    "drift": 0.1,
+    "radius": 0.05,
+    "width_slope_fraction": 0.5,
+    "seed": 17,
+    "denominator": 3,
+    "grid_size": 4,
+    "eta": 0.08,
+    "finite_grid_coverage": 0.22555579529554518,
+    "thm05_bound": 89.5157046668266,
+    "finite_grid_below_bound": true,
+    "note": "Finite front sampling underestimates the continuous supremum; theorem bound is continuous.",
+    "front_trace": [
+      {
+        "t": 1,
+        "front_min": 0.42920392684214526,
+        "front_max": 0.6620462194225344,
+        "actions": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "t": 2,
+        "front_min": 0.3598331766093271,
+        "front_max": 0.6063339456691473,
+        "actions": [
+          0.4846726282947432,
+          0.49709088389903067,
+          0.5095091395033181,
+          0.5219273951076056
+        ]
+      },
+      {
+        "t": 3,
+        "front_min": 0.28791622887282825,
+        "front_max": 0.6040474164180528,
+        "actions": [
+          0.46069831602507666,
+          0.4842763584158685,
+          0.5078544008066603,
+          0.5314324431974522
+        ]
+      },
+      {
+        "t": 4,
+        "front_min": 0.2555810562522126,
+        "front_max": 0.656526049493779,
+        "actions": [
+          0.4290531820807169,
+          0.46571906769139404,
+          0.5023849533020711,
+          0.5390508389127483
+        ]
+      },
+      {
+        "t": 5,
+        "front_min": 0.28176916432696175,
+        "front_max": 0.7330285733753671,
+        "actions": [
+          0.3972976419481562,
+          0.44948071883400853,
+          0.5016637957198609,
+          0.5538468726057132
+        ]
+      },
+      {
+        "t": 6,
+        "front_min": 0.35113991455977983,
+        "front_max": 0.7887408471287541,
+        "actions": [
+          0.3748130855287651,
+          0.44271403859546266,
+          0.5106149916621603,
+          0.5785159447288578
+        ]
+      },
+      {
+        "t": 7,
+        "front_min": 0.4230568622962788,
+        "front_max": 0.7910273763798487,
+        "actions": [
+          0.36702537817372743,
+          0.447400895153432,
+          0.5277764121331366,
+          0.6081519291128412
+        ]
+      },
+      {
+        "t": 8,
+        "front_min": 0.4553920349168944,
+        "front_max": 0.7385487433041225,
+        "actions": [
+          0.3719904156333356,
+          0.45913094398074455,
+          0.5462714723281535,
+          0.6334120006755624
+        ]
+      }
+    ]
+  },
+  "device": "cpu",
+  "timestamp_utc": "2026-10-01T03:19:39.287950+00:00",
+  "runtime_seconds": 0.11291689999779919,
+  "packages": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "torch": null
+  },
+  "git_commit": null
+}

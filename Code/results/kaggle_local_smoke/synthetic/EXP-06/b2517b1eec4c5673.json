@@ -1,0 +1,64 @@
+{
+  "run_id": "b2517b1eec4c5673",
+  "status": "success",
+  "experiment_id": "EXP-06",
+  "config": {
+    "experiment_id": "EXP-06",
+    "synthetic": {
+      "horizon": 8,
+      "dimension": 2,
+      "objectives": 3,
+      "drift": 0.1,
+      "radius": 0.05,
+      "width_slope_fraction": 0.5,
+      "seed": 18
+    },
+    "algorithm": "midpoint",
+    "preference_id": "simplex1",
+    "weights": [
+      0.10050287298076695,
+      0.3624838409624824,
+      0.5370132860567507
+    ],
+    "eta": 0.08,
+    "implementation_version": "2026-10-01-v2",
+    "front_denominator": null
+  },
+  "metrics": {
+    "horizon": 8,
+    "dimension": 2,
+    "objectives": 3,
+    "drift": 0.1,
+    "radius": 0.05,
+    "width_slope_fraction": 0.5,
+    "seed": 18,
+    "algorithm": "midpoint",
+    "preference_mode": "fixed",
+    "fixed_weights": [
+      0.10050287298076695,
+      0.3624838409624824,
+      0.5370132860567507
+    ],
+    "eta": 0.08,
+    "regret": 0.05800465554999744,
+    "midpoint_regret": 0.0582046522412973,
+    "path_variation": 0.3190298388736485,
+    "two_location_width": 0.7821515611633942,
+    "uniform_width": 1.2000000000000002,
+    "online_term": 12.500000000000002,
+    "drift_term": 5.639704061710212,
+    "gradient_term": 2.5600000000000005,
+    "theorem_bound": 21.48185562287361,
+    "finite_grid_coverage": null,
+    "bound_respected": true
+  },
+  "device": "cpu",
+  "timestamp_utc": "2026-10-01T03:21:08.186703+00:00",
+  "runtime_seconds": 0.0030452999999397434,
+  "packages": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "torch": null
+  },
+  "git_commit": null
+}

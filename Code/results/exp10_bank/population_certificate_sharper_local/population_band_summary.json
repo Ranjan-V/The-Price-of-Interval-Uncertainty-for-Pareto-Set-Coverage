@@ -1,0 +1,24 @@
+{
+  "status": "conditional_certificate_only",
+  "sampling_assumption": "current batch IID conditional on past; unverified for UCI Bank Marketing",
+  "target": "conditional population objective functions, uniformly over all box actions",
+  "simultaneous_confidence_if_assumption_holds": 0.95,
+  "horizon": 128,
+  "batch_size": 256,
+  "risk_grid_spacing": 0.03851107002325571,
+  "risk_radius_method": "minimum of grid-Hoeffding and uniform Rademacher-McDiarmid bounds",
+  "risk_radius": 3.111545377185955,
+  "mean_gap_radius": 6.2222014201189575,
+  "max_gap_radius": 7.4851955110255135,
+  "mean_observed_logloss_center": 0.3589735407532136,
+  "mean_observed_gap_center": 0.00626334657398845,
+  "mean_weighted_half_width": 3.422566514766608,
+  "THM02_U_T_upper_bound": 876.1770277802516,
+  "empirical_population_coverage_measurable": false,
+  "static_comparator_envelope_at_eta_0.05": {
+    "gradient_norm_bound": 5.286629778763585,
+    "optimization_part": 329.43505413667174,
+    "total_with_U_T": 1205.6120819169232,
+    "interpretation": "conditional worst-case bound, not measured regret"
+  }
+}

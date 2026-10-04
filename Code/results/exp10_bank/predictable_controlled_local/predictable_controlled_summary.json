@@ -1,0 +1,112 @@
+{
+  "protocol": "IID-with-replacement feedback from each fixed chronological pool",
+  "APP01_sampling_assumption_satisfied_by_design": true,
+  "confidence_per_seed_simultaneously_over_rounds_at_played_actions": 0.95,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "horizon": 128,
+  "all_seeds_all_played_actions_covered": true,
+  "all_realized_pool_regret_bounds_hold": true,
+  "per_seed": [
+    {
+      "seed": 0,
+      "risk_covered": 128,
+      "gap_covered": 128,
+      "joint_all_rounds_covered": true,
+      "population_regret_vs_neutral": -37.72197010507676,
+      "conditional_bound": 58.12013196490324,
+      "bound_holds_for_realized_pool": true
+    },
+    {
+      "seed": 1,
+      "risk_covered": 128,
+      "gap_covered": 128,
+      "joint_all_rounds_covered": true,
+      "population_regret_vs_neutral": -37.78061229957988,
+      "conditional_bound": 59.28254973431304,
+      "bound_holds_for_realized_pool": true
+    },
+    {
+      "seed": 2,
+      "risk_covered": 128,
+      "gap_covered": 128,
+      "joint_all_rounds_covered": true,
+      "population_regret_vs_neutral": -37.83307909603063,
+      "conditional_bound": 58.588677145204464,
+      "bound_holds_for_realized_pool": true
+    },
+    {
+      "seed": 3,
+      "risk_covered": 128,
+      "gap_covered": 128,
+      "joint_all_rounds_covered": true,
+      "population_regret_vs_neutral": -37.733467289790404,
+      "conditional_bound": 58.24678501903446,
+      "bound_holds_for_realized_pool": true
+    },
+    {
+      "seed": 4,
+      "risk_covered": 128,
+      "gap_covered": 128,
+      "joint_all_rounds_covered": true,
+      "population_regret_vs_neutral": -37.800939432669786,
+      "conditional_bound": 58.00351670270914,
+      "bound_holds_for_realized_pool": true
+    },
+    {
+      "seed": 5,
+      "risk_covered": 128,
+      "gap_covered": 128,
+      "joint_all_rounds_covered": true,
+      "population_regret_vs_neutral": -37.77120045908737,
+      "conditional_bound": 58.96162455142414,
+      "bound_holds_for_realized_pool": true
+    },
+    {
+      "seed": 6,
+      "risk_covered": 128,
+      "gap_covered": 128,
+      "joint_all_rounds_covered": true,
+      "population_regret_vs_neutral": -37.75055550263129,
+      "conditional_bound": 58.700088719070806,
+      "bound_holds_for_realized_pool": true
+    },
+    {
+      "seed": 7,
+      "risk_covered": 128,
+      "gap_covered": 128,
+      "joint_all_rounds_covered": true,
+      "population_regret_vs_neutral": -37.85237167475448,
+      "conditional_bound": 58.83600052868955,
+      "bound_holds_for_realized_pool": true
+    },
+    {
+      "seed": 8,
+      "risk_covered": 128,
+      "gap_covered": 128,
+      "joint_all_rounds_covered": true,
+      "population_regret_vs_neutral": -37.84604305637871,
+      "conditional_bound": 58.5091108144405,
+      "bound_holds_for_realized_pool": true
+    },
+    {
+      "seed": 9,
+      "risk_covered": 128,
+      "gap_covered": 128,
+      "joint_all_rounds_covered": true,
+      "population_regret_vs_neutral": -37.71740789293081,
+      "conditional_bound": 58.77614385294762,
+      "bound_holds_for_realized_pool": true
+    }
+  ]
+}

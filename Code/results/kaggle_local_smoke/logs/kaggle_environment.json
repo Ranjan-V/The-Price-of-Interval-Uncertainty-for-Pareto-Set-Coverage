@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-10-01T03:17:07.731286+00:00",
+  "python": "3.12.0",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "torch": null
+  },
+  "cuda_available": false,
+  "cuda_device": null,
+  "cpu_count": 16
+}

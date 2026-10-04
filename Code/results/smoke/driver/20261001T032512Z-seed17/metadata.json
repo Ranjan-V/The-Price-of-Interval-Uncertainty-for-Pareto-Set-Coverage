@@ -1,0 +1,18 @@
+{
+  "config": {
+    "synthetic": {
+      "horizon": 8,
+      "dimension": 2,
+      "objectives": 2,
+      "drift": 0.1,
+      "radius": 0.05,
+      "width_slope_fraction": 0.25,
+      "seed": 17
+    },
+    "eta": 0.08,
+    "output_root": "Code/results/smoke/driver"
+  },
+  "run_id": "20261001T032512Z-seed17",
+  "code_version": "unexecuted-development-v1",
+  "note": "Only midpoint rows carry THM-02 bound validity; coverage is finite-grid diagnostic."
+}

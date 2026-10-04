@@ -1,0 +1,39 @@
+{
+  "records_checked": 1920,
+  "max_pool_rate_error": 0.0,
+  "max_continuous_minus_grid_coverage": 3.247402347028583e-15,
+  "independent_optimizer_checks": [
+    {
+      "rate": 0.022988505747126436,
+      "reported_oracle_floor": 6.262858183615575e-05,
+      "independent_grid_minimum": 6.263981120798217e-05,
+      "difference": -1.1229371826420318e-08
+    },
+    {
+      "rate": 0.0425531914893617,
+      "reported_oracle_floor": 0.00035930627824450853,
+      "independent_grid_minimum": 0.0003604332520313236,
+      "difference": -1.1269737868150752e-06
+    },
+    {
+      "rate": 0.057692307692307696,
+      "reported_oracle_floor": 0.0007316087034801767,
+      "independent_grid_minimum": 0.0007334587183912458,
+      "difference": -1.8500149110690879e-06
+    },
+    {
+      "rate": 0.10256410256410256,
+      "reported_oracle_floor": 0.002459120292131846,
+      "independent_grid_minimum": 0.0024641280675782953,
+      "difference": -5.007775446449255e-06
+    },
+    {
+      "rate": 0.4051724137931034,
+      "reported_oracle_floor": 0.032799981608910275,
+      "independent_grid_minimum": 0.032876175368121534,
+      "difference": -7.619375921125854e-05
+    }
+  ],
+  "max_abs_oracle_gap": 7.619375921125854e-05,
+  "note": "Grid minimization is an independent numerical diagnostic, not a proof of global optimality."
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "af7e5c5ec4a6e205",
+  "status": "success",
+  "experiment_id": "EXP-10",
+  "config": {
+    "experiment_id": "EXP-10",
+    "data_sha256": "1ea2fd8ef5a0f0194c61dcf501548e08d4ea4bb30e052c58ec2511f6c7b1244e",
+    "eta": 0.05,
+    "interpretation": "empirical surrogate; population interval containment unverified"
+  },
+  "metrics": {
+    "round_table": "/kaggle/working/JCAM/Code/results/exp10_bank/application/af7e5c5ec4a6e205/rounds.csv"
+  },
+  "timestamp_utc": "2026-10-01T14:20:51.941753+00:00",
+  "runtime_seconds": 0.08390822400002662,
+  "device": "cpu",
+  "packages": {
+    "numpy": "2.0.2",
+    "matplotlib": "3.10.0",
+    "torch": "2.10.0+cpu"
+  },
+  "git_commit": null
+}

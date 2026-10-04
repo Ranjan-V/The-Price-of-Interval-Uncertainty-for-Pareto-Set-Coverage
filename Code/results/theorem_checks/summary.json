@@ -1,0 +1,9 @@
+{
+  "total": 17,
+  "passed": 17,
+  "claims": [
+    "THM-02",
+    "THM-03 pair identity",
+    "THM-05 sampled metric"
+  ]
+}
