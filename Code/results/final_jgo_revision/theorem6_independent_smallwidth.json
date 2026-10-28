@@ -1,0 +1,380 @@
+[
+  {
+    "K": 1,
+    "profiles": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "s": 0.0001,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.25010000000000654,
+    "rho_formula": 0.24999999999999997,
+    "relative_difference": 0.00040000000002637925,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 1,
+    "profiles": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "s": 1e-05,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.250010000000557,
+    "rho_formula": 0.24999999999999997,
+    "relative_difference": 4.0000002228257614e-05,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 2,
+    "profiles": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "s": 0.0001,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.11721718500171813,
+    "rho_formula": 0.11718750000000001,
+    "relative_difference": 0.00025331201466127773,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 2,
+    "profiles": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "s": 1e-05,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.11719046872516596,
+    "rho_formula": 0.11718750000000001,
+    "relative_difference": 2.5333121416171167e-05,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 3,
+    "profiles": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "s": 0.0001,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.08241573973354066,
+    "rho_formula": 0.08240427185472052,
+    "relative_difference": 0.0001391660718799148,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 3,
+    "profiles": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "s": 1e-05,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.0824054199158146,
+    "rho_formula": 0.08240427185472052,
+    "relative_difference": 1.3932057989718416e-05,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 1,
+    "profiles": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "s": 0.0001,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.25792188000105243,
+    "rho_formula": 0.2578125,
+    "relative_difference": 0.0004242618222640715,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 1,
+    "profiles": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "s": 1e-05,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.2578234375504723,
+    "rho_formula": 0.2578125,
+    "relative_difference": 4.2424438195576286e-05,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 2,
+    "profiles": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "s": 0.0001,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.120905759302143,
+    "rho_formula": 0.12087363319577385,
+    "relative_difference": 0.0002657825823528803,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 2,
+    "profiles": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "s": 1e-05,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.12087684601765068,
+    "rho_formula": 0.12087363319577385,
+    "relative_difference": 2.6580005844767385e-05,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 3,
+    "profiles": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "s": 0.0001,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.08511493319898929,
+    "rho_formula": 0.08510245631674837,
+    "relative_difference": 0.00014661013066974427,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 3,
+    "profiles": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "s": 1e-05,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.08510370539298663,
+    "rho_formula": 0.08510245631674837,
+    "relative_difference": 1.467732298587876e-05,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 1,
+    "profiles": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        3.0,
+        2.0
+      ]
+    ],
+    "s": 0.0001,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.4068849259681456,
+    "rho_formula": 0.4067185024800858,
+    "relative_difference": 0.0004091859284616195,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 1,
+    "profiles": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        3.0,
+        2.0
+      ]
+    ],
+    "s": 1e-05,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.40673514457058296,
+    "rho_formula": 0.4067185024800858,
+    "relative_difference": 4.091795774141538e-05,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 2,
+    "profiles": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        3.0,
+        2.0
+      ]
+    ],
+    "s": 0.0001,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.20081748370780195,
+    "rho_formula": 0.20078749539703525,
+    "relative_difference": 0.00014935347795130838,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 2,
+    "profiles": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        3.0,
+        2.0
+      ]
+    ],
+    "s": 1e-05,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.2007904997760809,
+    "rho_formula": 0.20078749539703525,
+    "relative_difference": 1.4962978843513497e-05,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 3,
+    "profiles": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        3.0,
+        2.0
+      ]
+    ],
+    "s": 0.0001,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.13276591476369184,
+    "rho_formula": 0.13274688513294747,
+    "relative_difference": 0.0001433527477900931,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  },
+  {
+    "K": 3,
+    "profiles": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        3.0,
+        2.0
+      ]
+    ],
+    "s": 1e-05,
+    "world_count": 33,
+    "optimized_sampled_world_excess_over_s": 0.13274879011298396,
+    "rho_formula": 0.13274688513294747,
+    "relative_difference": 1.4350468823254303e-05,
+    "successful_starts": 2,
+    "method": "SLSQP exact-target epigraph; two starts",
+    "certification": "Neither global optimization nor randomized continuum minimax certified"
+  }
+]

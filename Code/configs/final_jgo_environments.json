@@ -1,0 +1,15 @@
+{
+  "note": "Historical environments reported for the experiments; not inferred from the release machine. Hardware is author-supplied. Missing notebook versions are explicitly unknown.",
+  "coefficient_seed": 20261028,
+  "independent_optimizer_seed": 20261028,
+  "bank_seeds": [0, 1, 2, 3, 4],
+  "bank_sampling_seed_formula": "1000003*seed + 1009*t + int(fraction*100); t=0,...,127; saved batch=t+1",
+  "environments": [
+    {"component": "Local hardware", "specification": "Intel Core i5-12500H at 2.50 GHz; 16 GB DDR4; Windows 11; author-supplied specification"},
+    {"component": "Local Bank software", "specification": "CPU; Python 3.11.9; NumPy 1.26.4; SciPy 1.11.1; Matplotlib 3.10.8"},
+    {"component": "Earlier CPU validation", "specification": "Python 3.12.0; NumPy 2.5.3; Matplotlib 3.11.2; pytest 9.1.1"},
+    {"component": "Final presentation checks", "specification": "CPU; Python 3.12.0; NumPy 2.5.4; SciPy 1.18.1; Matplotlib 3.11.2"},
+    {"component": "Kaggle synthetic suite", "specification": "Linux; four logical CPU cores; two Tesla T4 GPUs; Python 3.12.13; NumPy 2.0.2; Matplotlib 3.10.0; PyTorch 2.10.0+cu128; 2292 CUDA and 168 CPU checkpoints"},
+    {"component": "Kaggle Bank study", "specification": "CPU; Python with NumPy/SciPy/Matplotlib; exact notebook package versions not retained"}
+  ]
+}

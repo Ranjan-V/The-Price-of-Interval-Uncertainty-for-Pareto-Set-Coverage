@@ -1,0 +1,99 @@
+{
+  "input_sha256": "36b0ec8b8caade0424b22e0d6a438f188d582f7412da0fb085bd6ca28aa499ed",
+  "records": 1920,
+  "pools": 128,
+  "seeds": 5,
+  "interpretation": "Descriptive dispersion on fixed chronological pools; no population CI",
+  "by_fraction": [
+    {
+      "fraction": 0.5,
+      "records": 640,
+      "pools": 128,
+      "seeds": 5,
+      "static_mean": 0.17588101320260088,
+      "adaptive_mean": 0.038673568673043876,
+      "pool_mean_sd": 0.026774221124141517,
+      "within_pool_seed_rms_sd": 0.004023528504331714,
+      "seedwise_mean_sd": 0.00018942670718396297,
+      "seedwise_mean_min": 0.03847186646648785,
+      "seedwise_mean_max": 0.038895696586049584,
+      "paired_gain_mean": 0.137207444529557,
+      "paired_gain_pool_sd": 0.3774551496365484,
+      "fraction_record_improved": 0.4296875,
+      "fraction_poolmean_improved": 0.4375,
+      "labels_read_mean": 56.890625,
+      "seedwise_means": [
+        0.03847186646648785,
+        0.038569758781570165,
+        0.03885535424325657,
+        0.03857516728785517,
+        0.038895696586049584
+      ],
+      "pool_quartiles": [
+        0.016834198032163843,
+        0.034915293525074165,
+        0.053771904832951224
+      ]
+    },
+    {
+      "fraction": 0.8,
+      "records": 640,
+      "pools": 128,
+      "seeds": 5,
+      "static_mean": 0.17588101320260088,
+      "adaptive_mean": 0.009724606457595422,
+      "pool_mean_sd": 0.009226138127791998,
+      "within_pool_seed_rms_sd": 0.002276239039043775,
+      "seedwise_mean_sd": 7.489055065193915e-05,
+      "seedwise_mean_min": 0.009640151522873508,
+      "seedwise_mean_max": 0.009839717627187506,
+      "paired_gain_mean": 0.16615640674500545,
+      "paired_gain_pool_sd": 0.3680763126614119,
+      "fraction_record_improved": 0.6078125,
+      "fraction_poolmean_improved": 0.6171875,
+      "labels_read_mean": 91.0234375,
+      "seedwise_means": [
+        0.009640151522873508,
+        0.009683406358674384,
+        0.009839717627187506,
+        0.009742087530835485,
+        0.009717669248406237
+      ],
+      "pool_quartiles": [
+        0.004553101878134711,
+        0.005548941320511217,
+        0.011291242536139596
+      ]
+    },
+    {
+      "fraction": 0.95,
+      "records": 640,
+      "pools": 128,
+      "seeds": 5,
+      "static_mean": 0.17588101320260088,
+      "adaptive_mean": 0.0013851394844677431,
+      "pool_mean_sd": 0.0015247362938607147,
+      "within_pool_seed_rms_sd": 0.0010065950910520195,
+      "seedwise_mean_sd": 0.00013929847039574446,
+      "seedwise_mean_min": 0.001222946206440687,
+      "seedwise_mean_max": 0.001577245512643773,
+      "paired_gain_mean": 0.17449587371813313,
+      "paired_gain_pool_sd": 0.366612644585638,
+      "fraction_record_improved": 0.81875,
+      "fraction_poolmean_improved": 0.8203125,
+      "labels_read_mean": 108.1171875,
+      "seedwise_means": [
+        0.001222946206440687,
+        0.0014424224168226403,
+        0.0014020478084256906,
+        0.0012810354780059252,
+        0.001577245512643773
+      ],
+      "pool_quartiles": [
+        0.0005632670774205492,
+        0.0008616138482426559,
+        0.0012664366120173048
+      ]
+    }
+  ]
+}

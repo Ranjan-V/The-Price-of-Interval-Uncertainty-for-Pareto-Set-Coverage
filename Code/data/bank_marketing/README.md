@@ -13,3 +13,10 @@ uncalibrated interval radii. The post-call `duration` field is excluded.
 The evaluation is exploratory. Published row order is chronological, but
 per-record timestamps are not supplied. The chosen radii are fixed sensitivity
 bands, not verified population confidence intervals.
+
+Those fixed radii belong to the earlier stream-classification experiments.
+The finite-pool Pareto study in `real_bank_pareto_coverage.py` instead uses only
+the eligible labels and the exact bounds `[k/N,(k+N-n)/N]`; it has deterministic
+containment for each fixed pool. It does not use the metadata radii as calibrated
+population intervals. The final presentation aggregates saved pool/seed records
+descriptively and does not treat them as independent population samples.

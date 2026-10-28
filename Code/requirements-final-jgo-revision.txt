@@ -1,0 +1,6 @@
+# Recorded CPU presentation/diagnostic environment, 28 October 2026.
+# Python 3.12.0; no GPU dependencies.
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+pytest==9.1.1

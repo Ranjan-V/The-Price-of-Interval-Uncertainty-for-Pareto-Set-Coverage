@@ -7,3 +7,11 @@ __pycache__/
 *.aux
 *.out
 *.synctex.gz
+release_validation/
+reproduced/
+Paper/
+Math/
+Theory/
+*.tex
+*.env
+.env*
